@@ -1,0 +1,40 @@
+html{
+	box-sizing: border-box; 
+}
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+}
+body{
+   font-size: 14px;
+   font-family: 'Jost';
+   background: #EDEDED;
+   color: rgba(60, 61, 61, 1);
+}
+img{
+   display: block;
+}
+ul,
+li{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+p{
+   margin: 0;
+}
+a{
+   text-decoration: none;
+   color: #000;
+   &:hover{
+      color: rgba(112, 112, 112, 1);
+      transition-duration: 0.3ms;
+   }
+}
+.container{
+   margin: 0 auto;
+   max-width: 1280px;
+   padding: 0 15px;
+}
+
